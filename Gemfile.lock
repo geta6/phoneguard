@@ -21,7 +21,10 @@ GEM
     guard-sass (0.7.1)
       guard (>= 1.1.0)
       sass (>= 3.1)
-    haml (3.1.6)
+    haml (6.1.1)
+      temple (>= 0.8.2)
+      thor
+      tilt
     listen (0.4.6)
       rb-fchange (~> 0.0.5)
       rb-fsevent (~> 0.9.1)
@@ -33,7 +36,9 @@ GEM
     rb-inotify (0.8.8)
       ffi (>= 0.5.0)
     sass (3.1.19)
+    temple (0.10.0)
     thor (0.15.3)
+    tilt (2.1.0)
 
 PLATFORMS
   ruby
